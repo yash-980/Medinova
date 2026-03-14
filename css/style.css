@@ -317,7 +317,6 @@ h6 {
 
 }
 
-/* --- Responsive Layout --- */
 @media (max-width: 991.98px) {
     .hero-section {
         padding: 60px 0;
@@ -355,5 +354,13 @@ h6 {
 
     .about-section .lead-text {
         text-align: center;
+    }
+
+    .about-section h5 {
+        margin-top: 80px;
+    }
+
+    .about-section p {
+        text-align: left !important;
     }
 }
